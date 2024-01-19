@@ -27,7 +27,7 @@ export default function IndexScreen() {
 
     useEffect(() => {
         if (response?.type === 'success') {
-            navigation.navigate('rawer'); 
+            navigation.navigate('Drawer'); 
         } else if (response?.type === 'error') {
             console.error('Authentication error:', response.error);
         }
